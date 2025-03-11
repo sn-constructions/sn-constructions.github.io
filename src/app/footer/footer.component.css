@@ -1,0 +1,84 @@
+/* filepath: /d:/Project/sn.construction/sn-construction/src/app/footer/footer.component.css */
+.footer {
+  background: #333;
+  color: white;
+  padding: 20px 0; /* Reduce the padding to reduce the height */
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.footer h2 {
+  color: yellow; /* Change the color of h2 headers to yellow */
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #ccc;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.footer .footer-social a:hover {
+  color: #fff;
+}
+
+.footer .footer-link a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer .footer-newsletter .form {
+  display: flex;
+}
+
+.footer .footer-newsletter .form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+}
+
+.footer .footer-newsletter .form button {
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.footer .footer-newsletter .form button:hover {
+  background: #0056b3;
+}
+
+.footer-menu {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.footer-menu .f-menu a {
+  margin-right: 15px;
+}
+
+.footer-menu .f-menu a:hover {
+  color: #fff;
+}
+
+.footer .text-center {
+  margin-top: 20px;
+}
